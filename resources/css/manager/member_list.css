@@ -1,0 +1,36 @@
+.dataTable{width:100%}	
+.dropdown-menu.member_status_menu > li > a{
+	padding-left:25px;
+}
+.dropdown-menu.member_status_menu > li:first-child > a{
+	padding-left:7px;
+	color:blue;
+}
+td.details-control i {
+	color:#337ab7;
+	cursor: pointer;
+}
+tr.shown td.details-control i{
+	color:red;
+	content: "arrow_drop_down_circle";
+}
+tr td.details-control i:first-child{
+	display:inline-block
+}
+tr.shown td.details-control i:first-child{
+	display:none
+}
+tr td.details-control i:nth-child(2){
+	display:none
+}
+tr.shown td.details-control i:nth-child(2){
+	display:inline-block
+}
+.innerform{padding:30px 5px 0 5px;}
+.innerform div.row{margin-top: 0px;}
+.st_text_wrap1{
+	line-height: 35px;
+	vertical-align: bottom;
+}
+
+.btn_state:hover{color:white;font-weight:bold;background: #F0F0F0;}

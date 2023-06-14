@@ -1,0 +1,1 @@
+GC.Spread.Sheets.LicenseKey = '277309001672840001500142';
